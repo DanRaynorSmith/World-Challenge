@@ -9,4 +9,4 @@
 9. SELECT DISTINCT COUNT(*) FROM country;
 10. SELECT name, surfacearea FROM country ORDER BY surfacearea DESC LIMIT 10;
 11. SELECT c1.name FROM city c1 JOIN country c2 ON c2.code=c1.countrycode WHERE c2.name LIKE 'japan' ORDER BY c1.population DESC LIMIT 5;
-12. 
+12. SELECT name, code FROM country WHERE HeadOfState='Elisabeth II';
